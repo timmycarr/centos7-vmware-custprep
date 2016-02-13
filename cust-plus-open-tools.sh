@@ -35,14 +35,14 @@
 /bin/rm –rf /var/tmp/*
 #Remove system's ssh key files
 /bin/rm –f /etc/ssh/*key*
-#Remove root's history file 
-/bin/rm -f ~root/.bash_history
-unset HISTFILE
 #Remove root's ssh keys that were potentiall generated during the install process
 /bin/rm -rf ~root/.ssh/
 #Remove kickstart configurations left in the root directory
 /bin/rm -f ~root/anaconda-ks.cfg
-#Remove file
+#Remove script file
 /bin/rm -f ./cust-plus-open-tools.sh
-#Shutdown
+#Remove root's history file 
+/bin/rm -f ~root/.bash_history
+unset HISTFILE
+#Shutdown the system
 /usr/sbin/shutdown -h now
