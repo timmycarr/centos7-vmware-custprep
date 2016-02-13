@@ -42,3 +42,7 @@ unset HISTFILE
 /bin/rm -rf ~root/.ssh/
 #Remove kickstart configurations left in the root directory
 /bin/rm -f ~root/anaconda-ks.cfg
+#Remove file
+/bin/rm -f ./cust-plus-open-tools.sh
+#Shutdown
+/usr/sbin/shutdown -h now
