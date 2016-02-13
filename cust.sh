@@ -1,3 +1,4 @@
+#!/bin/bash
 /sbin/service rsyslog stop
 /sbin/service auditd stop
 /bin/package-cleanup --oldkernels --count=1
