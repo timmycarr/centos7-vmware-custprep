@@ -7,6 +7,7 @@
 #
 #
 #
+/usr/bin/yum install open-vm-tools -y
 #Stop the audid and syslog services to clear out logs
 /sbin/service rsyslog stop
 /sbin/service auditd stop
