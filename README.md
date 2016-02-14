@@ -15,4 +15,6 @@ Both scirpts do the following:
 
 The script titled cust-plus-open-tools.sh will also install open-vmtools which as of version xx supports guest customization. Execute this script after installation by running the following:
 
-`curl https://raw.githubusercontent.com/timmycarr/centos7-vmware-custprep/master/cust-plus-open-tools.sh | sh`
+`
+curl https://raw.githubusercontent.com/timmycarr/centos7-vmware-custprep/master/cust-plus-open-tools.sh | sh
+`
