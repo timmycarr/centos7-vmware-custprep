@@ -25,4 +25,4 @@ To configure your host without open-vm-tools, execute the following after CentOS
 curl https://raw.githubusercontent.com/timmycarr/centos7-vmware-custprep/master/cust.sh | sh
 `
 
-Pull requests are more than welcome and thanks again to @plankers for doing all of the work.
+Pull requests are more than welcome and thanks again to [@plankers](https://twitter.com/plankers) for doing all of the work.
