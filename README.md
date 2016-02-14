@@ -1,6 +1,6 @@
 # README.md
 
-Taking a lot of the work that Bob Plankers has done over at [The Lone Sysadmin](https://lonesysadmin.net/2013/03/26/preparing-linux-template-vms/). I've created a couple of scripts to allow for VMware customization of CentOS 7 VMs. 
+Taking a lot of the work that Bob Plankers has done over at [The Lone Sysadmin](https://lonesysadmin.net/2013/03/26/preparing-linux-template-vms/), I've created a couple of scripts to allow for VMware customization of CentOS 7 VMs. 
 
 Both scirpts do the following:
 * Stop rsyslog and auditd
